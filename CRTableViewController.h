@@ -1,5 +1,5 @@
 //
-//  CRViewController.h
+//  CRTableViewController.h
 //  UITableViewController challenge Solution
 //
 //  Created by Cesar  on 8/23/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CRViewController : UIViewController
+@interface CRTableViewController : UITableViewController
 
 @end

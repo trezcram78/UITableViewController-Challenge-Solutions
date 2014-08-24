@@ -14,13 +14,13 @@
 		DB8544E219A9453A008BF75D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8544E119A9453A008BF75D /* main.m */; };
 		DB8544E619A9453A008BF75D /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8544E519A9453A008BF75D /* CRAppDelegate.m */; };
 		DB8544E919A9453A008BF75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8544E719A9453A008BF75D /* Main.storyboard */; };
-		DB8544EC19A9453A008BF75D /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8544EB19A9453A008BF75D /* CRViewController.m */; };
 		DB8544EE19A9453A008BF75D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8544ED19A9453A008BF75D /* Images.xcassets */; };
 		DB8544F519A9453A008BF75D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8544F419A9453A008BF75D /* XCTest.framework */; };
 		DB8544F619A9453A008BF75D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8544D519A9453A008BF75D /* Foundation.framework */; };
 		DB8544F719A9453A008BF75D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB8544D919A9453A008BF75D /* UIKit.framework */; };
 		DB8544FF19A9453A008BF75D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB8544FD19A9453A008BF75D /* InfoPlist.strings */; };
 		DB85450119A9453A008BF75D /* UITableViewController_challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85450019A9453A008BF75D /* UITableViewController_challenge_SolutionTests.m */; };
+		DB85450C19A94A8C008BF75D /* CRTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB85450B19A94A8C008BF75D /* CRTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		DB8544E419A9453A008BF75D /* CRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
 		DB8544E519A9453A008BF75D /* CRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
 		DB8544E819A9453A008BF75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB8544EA19A9453A008BF75D /* CRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRViewController.h; sourceTree = "<group>"; };
-		DB8544EB19A9453A008BF75D /* CRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRViewController.m; sourceTree = "<group>"; };
 		DB8544ED19A9453A008BF75D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DB8544F319A9453A008BF75D /* UITableViewController challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8544F419A9453A008BF75D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DB8544FC19A9453A008BF75D /* UITableViewController challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		DB8544FE19A9453A008BF75D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DB85450019A9453A008BF75D /* UITableViewController_challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_challenge_SolutionTests.m; sourceTree = "<group>"; };
+		DB85450A19A94A8C008BF75D /* CRTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRTableViewController.h; path = ../CRTableViewController.h; sourceTree = "<group>"; };
+		DB85450B19A94A8C008BF75D /* CRTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRTableViewController.m; path = ../CRTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				DB8544E419A9453A008BF75D /* CRAppDelegate.h */,
 				DB8544E519A9453A008BF75D /* CRAppDelegate.m */,
 				DB8544E719A9453A008BF75D /* Main.storyboard */,
-				DB8544EA19A9453A008BF75D /* CRViewController.h */,
-				DB8544EB19A9453A008BF75D /* CRViewController.m */,
+				DB85450A19A94A8C008BF75D /* CRTableViewController.h */,
+				DB85450B19A94A8C008BF75D /* CRTableViewController.m */,
 				DB8544ED19A9453A008BF75D /* Images.xcassets */,
 				DB8544DC19A9453A008BF75D /* Supporting Files */,
 			);
@@ -252,7 +252,7 @@
 			files = (
 				DB8544E219A9453A008BF75D /* main.m in Sources */,
 				DB8544E619A9453A008BF75D /* CRAppDelegate.m in Sources */,
-				DB8544EC19A9453A008BF75D /* CRViewController.m in Sources */,
+				DB85450C19A94A8C008BF75D /* CRTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
